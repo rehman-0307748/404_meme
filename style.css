@@ -1,4 +1,42 @@
-img{
-    width: 230px;
-    height: 400px;
+.post{
+    display: flex;
+    content: row();
+    width: 40vw;
+    /* height: 40vh; */
+}
+
+.account_ico{
+    height: 30px;
+    margin-bottom: 60%;
+    border-radius: 50px;
+    
+}
+
+.img_box{
+    
+    margin: 5px;
+    width: 80%;
+    border-radius: 9px;
+    border-top-left-radius: -50px;
+}
+.poster_name{
+    margin: 2px 2px;
+    margin-bottom: 0px;
+    padding-left: 2px;
+
+}
+
+.meme_img{
+    width: 97%;
+    margin: 1.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px;
+}
+
+.post_dis{
+    margin: 0px 0px;
+    margin-left: 5px;
+    margin-bottom: 8px;
 }
