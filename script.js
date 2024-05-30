@@ -7,9 +7,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
       return response.json();
     })
     .then((data) => {
-      // Process the JSON data
-      const content = document.getElementById("content");
-
       data.meme.forEach((item) => {
         // Create the post div
         const post = document.createElement("div");

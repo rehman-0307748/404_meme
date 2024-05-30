@@ -1,8 +1,7 @@
 .post{
     display: flex;
-    content: row();
-    width: 40vw;
-    /* height: 40vh; */
+    /* width: 40vw; */
+    max-width: 50vw;
 }
 
 .account_ico{
@@ -18,6 +17,7 @@
     width: 80%;
     border-radius: 9px;
     border-top-left-radius: -50px;
+    
 }
 .poster_name{
     margin: 2px 2px;
@@ -33,6 +33,7 @@
     margin-bottom: 0px;
     border-radius: 3px;
     box-shadow: 0.5px 0.5px;
+    max-height: 80%;
 }
 
 .post_dis{
