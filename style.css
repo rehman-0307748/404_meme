@@ -1,43 +1,71 @@
-.post{
-    display: flex;
-    /* width: 40vw; */
-    max-width: 50vw;
+.post {
+  display: flex;
+  /* width: 40vw; */
+   max-width:max-content;
+  /* 
+  min-width: 54%;
+  max-height: 60%; */
+  
 }
 
-.account_ico{
-    height: 30px;
-    margin-bottom: 60%;
-    border-radius: 50px;
-    
+.account_ico {
+  height: 30px;
+  margin-bottom: 60%;
+  border-radius: 50px;
 }
 
-.img_box{
-    
-    margin: 5px;
-    width: 80%;
-    border-radius: 9px;
-    border-top-left-radius: -50px;
-    
+.img_box {
+  margin: 5px;
+  width: 80%;
+  border-radius: 9px;
+  border-top-left-radius: -50px;
 }
-.poster_name{
-    margin: 2px 2px;
-    margin-bottom: 0px;
-    padding-left: 2px;
-
+.poster_name {
+  margin: 2px 2px;
+  margin-bottom: 0px;
+  padding-left: 2px;
 }
 
-.meme_img{
-    width: 97%;
-    margin: 1.5%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-radius: 3px;
-    box-shadow: 0.5px 0.5px;
-    max-height: 80%;
+.meme_img {
+  width: 97%;
+  margin: 1.5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.5px;
 }
 
-.post_dis{
-    margin: 0px 0px;
-    margin-left: 5px;
-    margin-bottom: 8px;
+.post_dis {
+  margin: 0px 0px;
+  margin-left: 5px;
+  margin-bottom: 8px;
+}
+
+.foot {
+  text-align: center;
+  padding: 14px 0px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 4px;
+  /* position: sticky;
+    bottom: 0px; */
+}
+
+/* content are style  */
+.main {
+  background-color: blue;
+  display: flex;
+}
+
+.contact-area {
+  background-color: yellow;
+  height: 100vh;
+  width: 30%;
+  /* width: 100vws; */
+}
+
+.nav-text {
+  width: 70%;
 }
